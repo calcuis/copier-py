@@ -9,7 +9,7 @@ Upon completion of the copying process, a message is printed to the console, ind
 In summary, the code automates the generation of multiple copies of a given source file with sequentially numbered filenames and organizes them in a specified output directory. This could be useful, for example, in scenarios where batch processing or duplication of files is required.
 
 #### possible modification(s):
-##### copy the file 100 times with names from '0' to '099' (original)
+##### copy the file 100 times with names from '0' to '99' (original)
 ```
 for i in range(100):
 ```
