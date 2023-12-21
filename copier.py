@@ -5,7 +5,7 @@ source_file = 'input.png'
 output_directory = 'output'
 os.makedirs(output_directory, exist_ok=True)
 
-# Copy the file 100 times with names from '000' to '099' / '100' to '199' => for i in range(100, 200):
+# Copy the file 100 times with names from '0' to '099' / '100' to '199' => for i in range(100, 200):
 for i in range(100):
     output_file = os.path.join(output_directory, f"{i}.png")
     shutil.copy(source_file, output_file)
